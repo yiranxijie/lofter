@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* logo */
+/*
+.m-stwrap1 .logo{width:380px;margin:0 auto 38px;}
+.m-stwrap1 .logo span{display:block;}
+.m-stwrap1 .logo .f1{height:108px;text-indent:-9999px;background:url(/rsc/img/loginopen/201406/btn.png) no-repeat -2px 0;*background:url(/rsc/img/loginopen/201406/btn.png) no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://l.bst.126.net/rsc/img/loginopen/201406/btn.png',sizingMethod='crop');}
+.m-stwrap1 .logo .f2{width:405px;color:#fff;font-size:20px;font-weight:normal;letter-spacing:26px;text-shadow:0 1px 1px rgba(0,0,0,0.2);}
+.m-stwrap1 .logo .f3{display:inline;margin:0 0 0 35px;}
+*/
+.m-stwrap1 .logo{width:425px;margin:0 auto 60px;}
+.m-stwrap1 .logo .f1{background: url(../../images/btn.png) no-repeat scroll 0 -1036px rgba(0, 0, 0, 0);
+    height: 124px;
+    text-indent: -9999px;
+    width: 425px;
+	}
+	
+.m-stwrap1 .logo .f2{display:none;}
+
+.m-userlnks a {
+    width: 291px;
+}
+
+/* 控制样式 */
+.f-trans{transition:all 0.3s linear;-webkit-transition:all 0.3s linear;-moz-transition:all 0.3s linear;-o-transition:all 0.3s linear;}
+#login1{min-height:650px;max-height:900px;}

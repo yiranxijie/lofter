@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.clearfix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.navbar {
+    background:url(../images/x.png) repeat-x scroll 0 -160px #eee;
+    height: 40px;
+    padding: 0 10px;
+    position: relative;
+    z-index: 100;
+	font:
+}
+.clearfix {
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar .tabbar span {
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 16px;
+    white-space: nowrap;
+}
+
+
+.navbar .btnbar {
+    margin-left: -20px;
+    margin-top: 5px;
+}
+.pright {
+    float: right;
+}
+
+
+
+.navbar .btnbar .w-sbtn {
+    margin-left: 10px;
+}
+a.w-sbtn-0, a.w-sbtn-0:hover, a.w-sbtn-1, a.w-sbtn-1:hover {
+    color: #333;
+}
+a.w-sbtn {
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+}
+.w-sbtn-0 {
+    background-position: 0 -200px;
+    color: #fff;
+}
+.w-sbtn {
+    background-position: 0 -240px;
+    border: 0 none;
+    color: #777;
+    cursor: pointer;
+    font-size: 12px;
+    height: 30px;
+    width: 88px;
+}
+.w-droplist .chkitm, .w-bbtn, .w-tag li, .w-tag li em, .w-sbtn, .w-vsbtn, .m-edtab li, .m-calendar a, .w-schbtn, .w-sbtn2, .w-sbtn2-1, .w-vbbtn, .w-vbbtn2, .w-droplist-3 .chkitm i, .m-set2 .btn2, .m-set2 .btn3 {
+    background: url(../images/btn24.png) no-repeat scroll 999px 999px rgba(0, 0, 0, 0);
+}
+a {
+    color: #333;
+    outline: medium none;
+    text-decoration: none;
+}
+a, button {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+element.style {
+    display: block;
+    visibility: visible;
+}
+.menu {
+    opacity: 1;
+}
+.info_menu {
+    left: 10px;
+    width: 271px;
+}
+.menu {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #c0c0c0;
+    display: none;
+    opacity: 0.6;
+    padding: 20px 10px 20px 20px;
+    position: absolute;
+    top: 40px;
+    z-index: 5;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+.itmh label{
+	margin-left:-280px;
+}
+
+
+

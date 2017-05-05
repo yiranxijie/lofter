@@ -1,0 +1,140 @@
+
+------------------------------------------------
+  --          数据结构表
+------------------------------------------------
+drop table tb_collect;
+drop table tb_reply;
+drop table tb_focus_rel;
+drop table tb_praise_rel;
+drop table tb_topic;
+drop table tb_pic;
+drop table tb_user;
+
+--用户信息表 
+create table tb_user(
+       id varchar2(40) primary key,     
+       email varchar2(40),           --账户 默认为邮箱 
+       pwd varchar2(40),                --密码 
+       nickname varchar2(40),           --名称 
+       autograph varchar2(1000),        --个人签名 
+       head varchar2(256),              --头像
+       regtime date,                    --注册时间 
+       token varchar2(50),              --账号激活码
+       token_exptime varchar2(50),      --激活码有效期 
+       status int,                      --激活状态 ，0-未激活，1-已激活 
+       remarks1 varchar2(3000),         --备用字段 
+       islogined int     
+);
+
+select * from tb_user;
+
+--话题表 
+create table tb_topic(
+       id varchar2(40) primary key,
+       userid varchar2(40),             --用户id 
+       title varchar2(100),        --标题
+       content varchar2(1000),          --内容描述 
+       picid varchar2(700),        --图片id
+       posttime date,                   --发布时间 
+       topictype varchar2(20),      --话题类型 如， 文字、图片、音乐、视频
+       remarks1 varchar2(3000),         --备用字段 
+       remarks2 varchar2(3000),
+       remarks3 varchar2(3000)  
+);
+
+select * from tb_topic;   
+
+--图片表
+create table tb_pic(
+        id varchar2(700) primary key,
+        picname varchar2(700),            --图片名
+        remarks1 varchar2(3000),        --备用字段 
+        remarks2 varchar2(3000),
+        remarks3 varchar2(3000)
+);
+select * from tb_pic;
+
+--点赞关系表 
+create table tb_praise_rel(
+       id varchar2(40) primary key,
+       userid varchar2(40),             --用户id 
+       topicid  varchar2(40),            --话题id 
+       remarks1 varchar2(3000),        --备用字段 
+       remarks2 varchar2(3000),
+       remarks3 varchar2(3000)
+);
+
+select * from tb_praise_rel;
+
+--关注/被关注关系表 
+create table tb_focus_rel(
+       focususerid varchar2(40),             --关注方id 
+       focuseduserid  varchar2(40),            --被关注方id 
+       focustime date ,                          --关注时间
+       remarks1 varchar2(3000),        --备用字段 
+       remarks2 varchar2(3000),
+       remarks3 varchar2(3000)
+);
+
+select * from tb_focus_rel;
+select * from tb_focus_rel where focususerid='1'
+
+alter table tb_focus_rel 
+ add constraint pk_focus
+   primary key(focususerid,focuseduserid)
+
+select * from tb_focus_rel;
+
+-- 评论回复表 
+create table tb_reply(
+       id varchar2(40) primary key,        
+       topicid  varchar2(40),           --回复的话题id 
+       userid varchar2(40),             --回复人id 
+       content varchar2(1000),          --回复内容
+       parentid  varchar2(40),          --父回复id 不能成为外键
+       replytime date,                  --回复时间
+       remarks1 varchar2(3000),         --备用字段 
+       remarks2 varchar2(3000),
+       remarks3 varchar2(3000) 
+);
+
+select * from tb_reply;
+
+--收藏表 
+create table tb_collect(
+      id varchar2(40) primary key,
+      userid varchar2(40),             --收藏人 
+      topicid  varchar2(40),           --收藏的话题id
+      collecttime date,                 --收藏时间
+      remarks1 varchar2(3000),      --备用字段 
+      remarks2 varchar2(3000),
+      remarks3 varchar2(3000)
+);
+
+select * from tb_collect;
+
+create table tb_chat(
+	id varchar2(40) primary key,
+	email varchar2(40),
+	chattopic  varchar2(40),
+	category   varchar2(40),
+)
+select * from tb_chat;
+
+---外键约束关系 
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

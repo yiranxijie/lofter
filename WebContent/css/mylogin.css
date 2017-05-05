@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+		background: url(../images/block1.jpg) no-repeat ;
+		text-align:center;
+		font-family:"微软雅黑";
+		font-size:14px;
+		margin:0 0;
+		padding:0 0;
+	}
+
+	.block1{
+		
+		background-size:cover;
+		height:700px;
+		margin:0px auto;
+	}
+
+	.block1 .logo .f1{
+		background: url(../images/btn.png) no-repeat scroll 0 -1036px rgba(0, 0, 0, 0);
+    	height: 124px;
+    	text-indent: -9999px;
+    	width: 425px;
+		text-align:center;
+		margin:100px auto;
+		
+	}
+	
+	.block2{
+		background:#CFC;
+		height:650px;
+		font-size:24px;
+	}
+	.block2 ul li{
+		float:left;
+		background: fixed;
+	}
+	.emailinfo{
+		display:none;
+	}
+	.login_emailinfo{
+		display:none;
+	}
+	.error{
+		color:#F00;
+		display:inline;
+		background: url(../images/btn.png) no-repeat ;
+		background-position:349px -782px ;
+		padding-left:30px;
+	}
+	.correct{
+		color:#75a500;
+		display:inline;
+	}
+	#myloginbtn{
+		background: url(../images/btn.png);
+		background-position:-1px -461px;
+		width:300px;
+		height:40px; 
+		line-height:40px; 
+		border:0 none;
+	}
+	.submit span{
+		font-size:18px;
+		color:#fff;
+		letter-spacing:3px;
+	}
+	.email,.pwdinfo{
+		width:300px;
+		height:40px; 
+		line-height:40px; 
+		border:1px solid #d7d7d7;
+		position:relative;
+		line-height:22px;
+	}
+	.mylogin .txt{
+		left:16px;
+		top:8px;
+		position:absolute;
+	}
+	.mylogin label{
+		color:#999;
+		top:8px;
+		z-index:1;
+		position:absolute;
+		right:16px;
+	}
+		table input{
+		font-size:14px;
+		height:22px;
+		line-height:22px;
+		width:266px;
+		border:0 none;
+	}
+	#warninfo{
+		position: absolute;
+		width:200px;
+		height:40px;
+		line-height:40px;
+		float:left;
+		border:1px solid #444;
+	}
+	
+	

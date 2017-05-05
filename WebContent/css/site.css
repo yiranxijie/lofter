@@ -1,0 +1,450 @@
+@charset "utf-8";
+
+
+body {
+    background-attachment: fixed;
+}
+
+
+body {
+    word-wrap: break-word;
+}
+body, textarea, select, input {
+    color: #737373;
+    font-family: "Hiragino Sans GB","Microsoft YaHei",微软雅黑,tahoma,arial,simsun,宋体;
+    font-size: 12px;
+}
+fieldset, img, html, body, iframe, input {
+    border: 0 none;
+}
+
+body {
+    background-color: #dfdfe1;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+[hidefocus] {
+    outline: 0 none;
+}
+fieldset, img, html, body, iframe, input {
+    border: 0 none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+li {
+    list-style: outside none none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+em, strong {
+    font-style: normal;
+    font-weight: bold;
+}
+body, textarea, select, input {
+    color: #737373;
+    font-family: "Hiragino Sans GB","Microsoft YaHei",微软雅黑,tahoma,arial,simsun,宋体;
+    font-size: 12px;
+}
+body {
+    word-wrap: break-word;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.sidelist li a:hover, .tag a:hover {
+    background-color: #4d4d4d;
+}
+.logo i {
+    background: url("http://img.ph.126.net/sUYFzEewQ_7InV8l3EdOlw==/5629500633724755628.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.sch input {
+    background: url("http://img.ph.126.net/W5tfOZ9Ma1Wmr9kip7_Nlg==/5629500633724755632.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.list_1, .list_2, .list_3, .list_4, .list_5, .prev, .next, .arrow, .cap {
+    background: url("http://img.ph.126.net/3ZY1gdaZcahG6CmxojI-ZQ==/5629506131282902209.png") no-repeat scroll -999px -999px rgba(0, 0, 0, 0);
+}
+.main {
+    background: url("http://img.ph.126.net/P8hVxLvUPkKUPYO3lSLskw==/5629500633724755631.png") repeat-x scroll center bottom rgba(0, 0, 0, 0);
+}
+.cover i {
+    background: url("http://img.ph.126.net/emFKxdK5Funy7lOJaOcdIA==/5629500633724755627.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.box {
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+}
+.sch input {
+    border-radius: 25px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+}
+.sidelist li a, .tag a {
+    border-radius: 15px;
+}
+.day a {
+    border-radius: 40px;
+}
+a {
+    transition-duration: 0.4s, 0.5s;
+    transition-property: background-color, color;
+    transition-timing-function: ease, ease;
+}
+.day a, .month a {
+    transition: all 0.3s ease 0s;
+}
+.sidelist::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.sidelist {
+}
+h1 a, h2 a {
+    color: #4c4c4c;
+    font-size: 26px;
+}
+h3 {
+    color: #939393;
+    font-size: 14px;
+    font-weight: bold;
+}
+input {
+    color: #bfbfbf;
+    font: 12px/12px "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.box {
+    background: none repeat scroll 0 0 #fff;
+    margin: 0 auto 40px;
+    overflow: hidden;
+    padding: 25px 30px;
+}
+.text {
+    font-size: 14px;
+    line-height: 1.8;
+}
+.h95 {
+    height: 50px;
+}
+.wid700 {
+    width: 640px;
+}
+.wid850 {
+    width: 790px;
+}
+.wid1000 {
+    width: 940px;
+}
+.selfinfo {
+    float: left;
+    width: 68%;
+}
+.logo {
+    float: left;
+    height: 80px;
+    position: relative;
+    width: 80px;
+}
+.selfinfo img {
+    max-width: 100%;
+}
+.logo i {
+    display: block;
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 80px;
+}
+.selfinfo h1 {
+    margin-left: 105px;
+}
+.selfinfo .text {
+    color: #9d9d9d;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-left: 105px;
+    padding-top: 4px;
+}
+.sch {
+    float: right;
+}
+.sch input {
+    background-color: #f7f7f7;
+    background-position: 10px 6px;
+    border: 1px solid #cbcbcb;
+    line-height: 16px;
+    margin-bottom: 15px;
+    padding: 5px 5px 5px 30px;
+}
+.sidelist {
+    float: left;
+    margin: 10px 0 0 105px;
+}
+.sidelist li {
+    float: left;
+}
+.side {
+    float: left;
+    width: 84px;
+}
+.main {
+    margin-left: 110px;
+    padding-bottom: 48px;
+}
+.block {
+    margin: 0 0 35px;
+}
+.img {
+    margin: 0 0 15px;
+}
+.desc {
+    margin: 8px 0 0;
+}
+.day a {
+    border-style: solid;
+    border-width: 5px;
+    display: block;
+    font-family: "Rokkitt",arial,serif;
+    font-size: 40px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    width: 70px;
+}
+.month a {
+    color: #c0c0c0;
+    display: block;
+    font-size: 24px;
+    margin: 6px 0 0;
+    text-align: center;
+}
+.day a:hover, .month a:hover {
+    border-color: #4d4d4d;
+    color: #4d4d4d;
+}
+.content img, .content object, .content embed {
+    display: block;
+    max-width: 100%;
+}
+.text ul, .text ol, .text p, .text blockquote {
+    margin: 0 0 15px;
+}
+.text ul, .text ol {
+    padding: 0 0 0 2.5em;
+}
+.text ul li {
+    list-style: outside none disc;
+}
+.text ol li {
+    list-style: outside none decimal;
+}
+.text blockquote {
+    border-left-style: solid;
+    border-left-width: 1px;
+    padding: 0 0 0 15px;
+}
+.text a:hover {
+    text-decoration: underline;
+}
+.text h2 a:hover {
+    text-decoration: none;
+}
+.tag {
+    clear: both;
+    margin: 30px 0 0;
+}
+.tag a, .sidelist li a {
+    color: #fefefe;
+    display: inline-block;
+    margin: 0 12px 10px 0;
+    padding: 2px 8px;
+    white-space: nowrap;
+}
+.tag a:hover, .sidelist li a:hover {
+    color: #fefefe;
+}
+.link {
+    clear: both;
+    margin: 20px 0 0;
+    overflow: hidden;
+}
+.link a {
+    display: block;
+    float: left;
+    height: 17px;
+    margin-right: 25px;
+}
+.link a:hover {
+    color: #4d4d4d;
+}
+.cover {
+    float: right;
+    height: 122px;
+    margin-bottom: 30px;
+    position: relative;
+    width: 122px;
+}
+.cover img {
+    height: 122px;
+    width: 122px;
+}
+.cover i {
+    height: 122px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 122px;
+}
+.page {
+    margin-left: 110px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.prev {
+    float: left;
+}
+.next {
+    float: right;
+}
+.prev, .next {
+    background-position: right -348px;
+    height: 40px;
+    padding: 0 20px 0 0;
+    position: relative;
+}
+.arrow {
+    height: 40px;
+    position: absolute;
+    top: 0;
+    width: 40px;
+}
+.prev .arrow {
+    background-position: 8px -117px;
+    left: 0;
+}
+.next .arrow {
+    background-position: 10px -195px;
+    right: 0;
+}
+.cap {
+    background-position: left -282px;
+    display: block;
+    height: 40px;
+    width: 20px;
+}
+.title {
+    color: #fff;
+    display: none;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+}
+.prev .title {
+    left: 0;
+    padding: 8px 0 0 38px;
+}
+.next .title {
+    padding: 8px 38px 0 0;
+    right: 0;
+}
+.disable {
+    background-color: #ebebeb;
+}
+.active a {
+    display: block;
+}
+.disable a:hover {
+    cursor: default;
+}
+.footer, .footer a {
+    color: #fff;
+    height: 45px;
+    text-align: center;
+}
+.nctitle {
+    padding-bottom: 10px;
+}
+.notes {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+.notes::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.notes .note {
+    border-bottom: 1px solid #ddd;
+    float: left;
+    list-style: outside none none;
+    margin: 0;
+    padding: 10px 0;
+    width: 100%;
+}
+.notes .avatar {
+    border: 0 none;
+    float: left;
+    height: 16px;
+    width: 16px;
+}
+.notes .clear {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+.notes .action {
+    float: right;
+    width: 500px;
+}
+.notes blockquote {
+    margin-left: 30px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.cc_1, .cc_2, .cc_3, .cc_4, .cc_5, .cc_6 {
+    background: url("http://img.ph.126.net/d3XTcSFaGg_ATz-1v1kMgg==/5629516026887547341.png") no-repeat scroll -999px -999px rgba(0, 0, 0, 0);
+    text-indent: -9999px;
+}
+.cc_1 {
+    background-position: 0 2px;
+    width: 48px;
+}
+.cc_2 {
+    background-position: -55px -22px;
+    width: 48px;
+}
+.cc_3 {
+    background-position: 0 -46px;
+    width: 32px;
+}
+.cc_4 {
+    background-position: -70px -69px;
+    width: 32px;
+}
+.cc_5 {
+    background-position: 0 -93px;
+    width: 32px;
+}
+.cc_6 {
+    background-position: -87px -116px;
+    width: 14px;
+}
+
+
